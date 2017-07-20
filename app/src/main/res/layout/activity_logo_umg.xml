@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="curso.umg.gt.umgapp.LogoUmg"
+    android:orientation="vertical"
+    android:padding="16dp"
+
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/logo"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bienvenido"
+        android:layout_gravity="center"
+        android:textSize="28dp"
+
+        />
+
+<EditText
+    android:id="@+id/et3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="alumno"
+    />
+
+
+
+
+
+
+</LinearLayout>
